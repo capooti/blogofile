@@ -47,6 +47,9 @@ blog.description = "Your Blog's short description"
 ## blog_timezone -- the timezone that you normally write your blog posts from
 blog.timezone = "US/Eastern"
 
+# links file for linkify
+import os
+filters.linkify.seo_links = "%s/_seolinks" % os.getcwd()
 
 ## Markdown extensions
 ## These are turned off by default, but turned on
